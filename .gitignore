@@ -21,8 +21,6 @@ env/
 
 # Project specific
 output/
-results/
-*.json
 reports/
 .cache/
 
