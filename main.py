@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-Ghost API Hunter - Autonomous API Discovery and Classification Tool
-Targets: vulnbank.org (or any target)
-Challenge: Assail AI Take-Home - Ghost API Hunter
+API Discovery and Reconnaissance Tool
+Finds and classifies API endpoints on target domains for security testing
 """
 
 import asyncio
@@ -11,7 +10,6 @@ import os
 import argparse
 from pathlib import Path
 
-# Fix UTF-8 encoding on Windows
 if sys.platform == 'win32':
     import io
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')

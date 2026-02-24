@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghost-api-hunter"
+version = "1.0.0"
+description = "Autonomous API discovery and classification tool for penetration testing"
+requires-python = ">=3.8"
+dependencies = [
+    "httpx==0.25.2",
+    "aiohttp==3.9.1",
+    "beautifulsoup4==4.12.2",
+    "lxml==4.9.3",
+    "google-genai>=0.1.0",
+    "tenacity==8.2.3",
+    "tqdm==4.66.2",
+    "pydantic==2.5.2",
+    "pydantic-settings==2.1.0",
+    "python-dotenv==1.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "black>=23.0", "mypy>=1.0"]
+
+[tool.setuptools]
+packages = [""]

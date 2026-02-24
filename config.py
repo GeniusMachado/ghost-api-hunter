@@ -11,8 +11,8 @@ RETRY_ATTEMPTS = 3
 RATE_LIMIT_DELAY = 0.5  # seconds between requests
 
 # LLM Configuration
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-LLM_MODEL = "llama-3.1-70b-versatile"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+LLM_MODEL = "gemini-1.5-flash"
 
 # Discovery patterns
 COMMON_ENDPOINTS = [
