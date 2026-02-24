@@ -331,4 +331,4 @@ Built for Assail AI Ghost API Hunter Challenge - February 2026
 
 ## License
 
-MIT License - Use responsibly for security research only.
+Use responsibly for security research only.
